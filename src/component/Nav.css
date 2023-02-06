@@ -1,0 +1,26 @@
+.navblack{
+    display: flex;
+    color: white;
+    flex-direction: row-reverse;
+    background-color: black;
+    padding-right: 60px;
+    column-gap: 20px;
+    cursor: pointer;
+    align-items: center;
+}
+.navwhite{
+    display: flex;
+    list-style: none;
+    background-color: whitesmoke;
+    height: 10vh;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 60px 0 40px;
+    font-size: smaller;
+}
+.kraya{
+    padding: 0 20px 0 20px;
+    border: 3px solid navy;
+    font-weight: bolder;
+    font-size: 20px;
+}

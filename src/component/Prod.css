@@ -1,0 +1,150 @@
+.container{
+    display: grid;
+    grid-template-columns: 48vw 48vw;
+    background-color: whitesmoke;
+    height: 80vh;
+    padding: 0 20px 0 40px;
+}
+.part1{
+    text-align: left;
+}
+.caro_img{
+    height: 40vh;
+    width: 20%;
+}
+.carousel .slider-wrapper{
+    width: 200px;
+}
+.thumb{
+    height: 70px;
+    width: 60px;
+}
+.coro_box{
+    width: 40%;
+}
+.carousel .thumb img{
+    height: 60px;
+    width: 50px;
+}
+.carousel .thumbs-wrapper {
+    text-align: center;
+}
+.btn_box{
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: center;
+    column-gap: 50px;
+}
+.btn_addnbuy{
+    padding: 16px 55px 16px 55px;
+    cursor: pointer;
+}
+#white_btn{
+    background-color: whitesmoke;
+    border: 2px solid #463F5F;
+    border-radius: 5px;
+}
+#blue_btn{
+    background-color: #463F5F;
+    color: white;
+    border-radius: 5px;
+}
+#blue_btn:active{
+    background: unset;
+    color: black;
+}
+#white_btn:active{
+    background: unset;
+    background-color: #463F5F;
+    color: white;
+}
+
+
+.part2{
+    text-align: left;
+    padding-left: 10px;
+}
+.Prod_heading{
+    font-weight: bolder;
+    font-size: larger;
+}
+.rating{
+    color: grey;
+}
+.price{
+    font-size: 30px;
+    font-weight: bolder;
+}.greyprice{
+    color: grey;
+}.stock{
+    color: #555555;
+    font-size: smaller;
+    font-weight:600;
+}
+.prod_color{
+    color:#797979;
+    font-size: smaller;
+    font-weight: 500;
+}
+.border{
+    border-top: 1px solid rgb(209, 209, 209);
+    border-bottom: 1px solid rgb(209, 209, 209);
+    width: 35vw;
+    height: 15vh;
+    padding: 10px 0 10px 0;
+}
+.prod_colorname{
+    font-size: 14px;
+    font-weight: bold;
+    color: #463F5F;
+}
+.color_box{
+    display: flex;
+    column-gap: 20px;
+}
+.circle_blue{
+    width: 35px;
+    height: 35px;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-top: 30px;
+}
+#div_blue{
+    background-color: #0F52BA;
+}
+#div_black{
+    background-color: black;
+}
+#div_grey{
+    background-color: grey;
+}
+.select_variable{
+    display: grid;
+    grid-template-columns: auto auto;
+    margin-top: 20px;
+}
+.GBdata{
+    display: flex;
+    /* gap: 10px; */
+    margin-top: 10px;
+}
+.gbBox{
+    width: 80px;
+    background-color: #FFFFFF;
+    text-align: center;
+    padding: 10px;
+    box-shadow: 0px 10px 16px #463F5F1A;
+    cursor: pointer;
+}
+#sideRed{
+    border-left: 4px solid red;
+    border-radius: 5px;
+}
+.prod_details{
+    padding: 2vh 4vh 2vh 4vh;
+    background-color: whitesmoke;
+    width: 30vw;
+    margin-top: 20px;
+    border-top: 1px solid rgb(209, 209, 209);
+    border-bottom: 1px solid rgb(209, 209, 209);
+}
